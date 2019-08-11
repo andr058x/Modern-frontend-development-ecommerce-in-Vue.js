@@ -1,0 +1,167 @@
+* {
+    outline: none;
+}
+
+body {
+    font-family: $bodyfont;
+}
+
+header {
+    width: 1280px;
+    font-family: $headingfont;
+}
+
+footer {
+    p {
+        font-size: 10pt;
+    }
+}
+
+button {
+    border: none;
+    text-align: center;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*******************
+bg img
+*******************/
+
+.black-opacity {
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.logo {
+    background-image: url("../img/logo.png");
+}
+
+
+/*******************
+Headings
+*******************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $headingtext;
+}
+
+h1 {
+    line-height: 40px;
+    font-size: 36px
+}
+
+h2 {
+    line-height: 36px;
+    font-size: 24px
+}
+
+h3 {
+    line-height: 30px;
+    font-size: 21px
+}
+
+h4 {
+    line-height: 22px;
+    font-size: 18px
+}
+
+h5 {
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h6 {
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+}
+
+span {
+    &.line-through {
+        text-decoration: line-through;
+    }
+
+    &.line-i{
+        font-style: oblique;
+    }
+}
+
+// class
+
+.logo {
+    width: 268px;
+    height: 28px;
+    display: inline-block;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a.link {
+    color: $secondary;
+
+    &:hover,
+    &:focus {
+        color: $primary;
+    }
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.img-rounded {
+    border-radius: $radius;
+}
+
+html body .mdi:before,
+html body .mdi-set {
+    line-height: initial;
+}
+
+i.icon {
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+}
+
+i.link {
+    cursor: pointer;
+}
+
+.color-success {
+    color: $success;
+}
+
+.color-danger {
+    color: $danger;
+}
+
+.color-warn {
+    color: $warn;
+}
+
+.align-right{
+    text-align: right;
+    margin-right: 10px; 
+}

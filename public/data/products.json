@@ -1,0 +1,139 @@
+{
+    "categories": [{
+            "id": 1,
+            "desc": "Fashion shoe"
+        },
+        {
+            "id": 2,
+            "desc": "Running shoe"
+        },
+        {
+            "id": 3,
+            "desc": "Hiking shoe"
+        },
+        {
+            "id": 4,
+            "desc": "Performance shoe"
+        }
+    ],
+
+    "brands": [{
+        "id": 1,
+        "name": "Asics",
+        "imgUrl": "mlogo_asics_1.png"
+    }],
+
+    "items": [{
+            "id": 1,
+            "imgUrl": "shoe1.png",
+            "detailBigImgUrl" : "1.png",
+            "detailImgUrls" : ["1_1.png", "1_2.png", "1_3.png"],
+            "brandLogoId": 1,
+            "isFavorite": false,
+            "price": 947.90,
+            "originalPrice": 1020,
+            "categoryId": 2,
+            "stars": [true, true, true, false, false],
+            "name": "gel-fujitrabuco 1 g-tx",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+        },
+        {
+            "id": 2,
+            "imgUrl": "shoe6.png",
+            "detailBigImgUrl" : "2.png",
+            "detailImgUrls" : ["2_1.png", "2_2.png", "2_3.png"],
+            "brandLogoId": 1,
+            "isFavorite": false,
+            "price": 4000,
+            "originalPrice": 5000,
+            "categoryId": 1,
+            "stars": [true, true, true, true, false],
+            "name": "ace embroidered sneaker",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+        },
+        {
+            "id": 3,
+            "imgUrl": "shoe5.png",
+            "detailBigImgUrl" : "3.png",
+            "detailImgUrls" : ["3_1.png", "3_2.png", "3_3.png"],
+            "brandLogoId": 1,
+            "isFavorite": false,
+            "price": 2110,
+            "originalPrice": 2300,
+            "categoryId": 2,
+            "stars": [true, false, false, false, false],
+            "name": "gel-fujitrabuco 3 xx",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+        },
+        {
+            "id": 4,
+            "imgUrl": "shoe4.png",
+            "detailBigImgUrl" : "4.png",
+            "detailImgUrls" : ["4_1.png", "4_2.png", "4_3.png"],
+            "brandLogoId": 1,
+            "isFavorite": false,
+            "price": 1490.90,
+            "originalPrice": 1600,
+            "categoryId": 2,
+            "stars": [true, true, true, false, false],
+            "name": "gel-fujitrabuco 4ss",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+        },
+        {
+            "id": 5,
+            "imgUrl": "shoe3.png",
+            "detailBigImgUrl" : "5.png",
+            "detailImgUrls" : ["5_1.png", "5_2.png", "5_3.png"],
+            "brandLogoId": 1,
+            "isFavorite": false,
+            "price": 4200.60,
+            "originalPrice": 5600,
+            "categoryId": 2,
+            "stars": [true, true, true, true, false],
+            "name": "gel-fujitrabuco 5 g-tx",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+        },
+        {
+            "id": 6,
+            "imgUrl": "shoe1.png",
+            "detailBigImgUrl" : "6.png",
+            "detailImgUrls" : ["6_1.png", "6_2.png", "6_3.png"],
+            "brandLogoId": 1,
+            "isFavorite": false,
+            "price": 989.90,
+            "originalPrice": 1020,
+            "categoryId": 2,
+            "stars": [true, true, true, true, true],
+            "name": "fujitrabuco 6 g-tx",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+        },
+        {
+            "id": 7,
+            "imgUrl": "shoe2.png",
+            "detailBigImgUrl" : "7.png",
+            "detailImgUrls" : ["7_1.png", "7_2.png", "7_3.png"],
+            "brandLogoId": 1,
+            "isFavorite": false,
+            "price": 1026.20,
+            "originalPrice": 1500,
+            "categoryId": 4,
+            "stars": [true, false, false, false, false],
+            "name": "gel-fujitrabuco 6 g-tx",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+        },
+        {
+            "id": 8,
+            "imgUrl": "shoe1.png",
+            "detailBigImgUrl" : "8.png",
+            "detailImgUrls" : ["8_1.png", "8_2.png", "8_3.png"],
+            "brandLogoId": 1,
+            "isFavorite": false,
+            "price": 1200,
+            "originalPrice": 1800,
+            "categoryId": 3,
+            "stars": [true, true, true, false, false],
+            "name": "gel-fujitrabuco 8 tx",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+        }
+    ]
+}

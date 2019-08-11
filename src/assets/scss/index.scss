@@ -1,0 +1,24 @@
+
+$bodyfont: 'PT Sans', arial;
+$headingfont:'PT Sans', arial;
+$headingtext: white;
+
+$primary: #324577;
+$success: #46a149;
+$info:    #478fca; 
+$warn: orange;
+$danger: red;
+
+$primary: #f45a40;
+$secondary: #7e7f84;
+
+$radius: 2pt;
+
+$num-cells: 6;
+
+// ======================================================================================
+
+@import 'app'; 
+@import 'flex';
+@import 'slider';
+
