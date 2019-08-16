@@ -160,9 +160,15 @@
 
   }
 
-  @media all and (min-width: 801px) {}
+  @media all and (min-width: 801px) {
+    display:none;
+  }
 
-  @media all and (max-width: 600px) {}
+  @media all and (max-width: 600px) {
+    display:none;
+  }
 
-  @media all and (max-width: 400px) {}
+  @media all and (max-width: 400px) {
+    display:none;
+  }
 </style>
